@@ -1,4 +1,6 @@
 {
   "item.aetherite.aetherite_scrap": "Aetherite Scrap",
-  "item.aetherite.aetherite_ingot": "Aetherite Ingot"
+  "item.aetherite.aetherite_ingot": "Aetherite Ingot",
+  "block.aetherite.aetherite_ore": "Aetherite Ore",
+  "block.aetherite.aetherite_block": "Aetherite Block"
 }
