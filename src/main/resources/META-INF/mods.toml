@@ -1,0 +1,28 @@
+modLoader="javafml"
+loaderVersion="[35,)"
+license="GNU GPLv3"
+
+[[mods]]
+modId="aetherite"
+version="${file.jarVersion}"
+displayName="Aetherite Mod"
+credits="hsabbas"
+authors="hsabbas"
+
+description='''
+This mod introduces a new ore found in the Overworld that functions exactly like netherite.
+'''
+
+[[dependencies.aetherite]]
+modId="forge"
+mandatory=true
+versionRange="[35,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.aetherite]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.16.4,1.17)"
+ordering="NONE"
+side="BOTH"
