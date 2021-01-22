@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "aetherite:aetherite_ingot_from_aetherite_block"
+    ]
+  },
+  "criteria": {
+    "has_aetherite_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "aetherite:aetherite_block"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "aetherite:aetherite_ingot_from_aetherite_block"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_aetherite_block",
+      "has_the_recipe"
+    ]
+  ]
+}

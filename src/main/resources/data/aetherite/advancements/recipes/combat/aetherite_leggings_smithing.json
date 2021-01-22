@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "aetherite:aetherite_leggings_smithing"
+    ]
+  },
+  "criteria": {
+    "has_aetherite_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "aetherite:aetherite_ingot"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "aetherite:aetherite_leggings_smithing"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_aetherite_ingot",
+      "has_the_recipe"
+    ]
+  ]
+}

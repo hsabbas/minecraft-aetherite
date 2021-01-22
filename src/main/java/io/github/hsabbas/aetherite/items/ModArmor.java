@@ -20,5 +20,7 @@ public class ModArmor {
   public static final RegistryObject<Item> AETHERITE_BOOTS = ModItems.ITEMS.register("aetherite_boots", () ->
     new ArmorItem(ModArmorMaterial.AETHERITE, EquipmentSlotType.FEET, (new Item.Properties()).group(ItemGroup.COMBAT).isImmuneToFire()));
 
-  public static void register(){}
+  public static void register(){
+    //Load class fields
+  }
 }

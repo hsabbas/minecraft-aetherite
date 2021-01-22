@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "aetherite_ingot",
+  "ingredients": [
+    {
+      "item": "aetherite:aetherite_scrap"
+    },
+    {
+      "item": "aetherite:aetherite_scrap"
+    },
+    {
+      "item": "aetherite:aetherite_scrap"
+    },
+    {
+      "item": "aetherite:aetherite_scrap"
+    },
+    {
+      "item": "minecraft:gold_ingot"
+    },
+    {
+      "item": "minecraft:gold_ingot"
+    },
+    {
+      "item": "minecraft:gold_ingot"
+    },
+    {
+      "item": "minecraft:gold_ingot"
+    }
+  ],
+  "result": {
+    "item": "aetherite:aetherite_ingot"
+  }
+}

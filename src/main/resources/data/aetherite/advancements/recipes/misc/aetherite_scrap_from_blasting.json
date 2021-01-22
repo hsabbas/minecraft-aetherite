@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "aetherite:aetherite_scrap_from_blasting"
+    ]
+  },
+  "criteria": {
+    "has_aetherite_ore": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "aetherite:aetherite_ore"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "aetherite:aetherite_scrap_from_blasting"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_aetherite_ore",
+      "has_the_recipe"
+    ]
+  ]
+}

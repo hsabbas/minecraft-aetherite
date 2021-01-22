@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "aetherite:aetherite_ore"
+  },
+  "result": "aetherite:aetherite_scrap",
+  "experience": 2.0,
+  "cookingtime": 100
+}

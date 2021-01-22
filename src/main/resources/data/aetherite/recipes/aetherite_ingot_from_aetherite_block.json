@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "aetherite_ingot",
+  "ingredients": [
+    {
+      "item": "aetherite:aetherite_block"
+    }
+  ],
+  "result": {
+    "item": "aetherite:aetherite_ingot",
+    "count": 9
+  }
+}
