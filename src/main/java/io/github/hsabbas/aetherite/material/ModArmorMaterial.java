@@ -1,5 +1,6 @@
 package io.github.hsabbas.aetherite.material;
 
+import io.github.hsabbas.aetherite.AetheriteMod;
 import io.github.hsabbas.aetherite.items.ModItems;
 import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.item.IArmorMaterial;
@@ -12,7 +13,7 @@ import net.minecraft.util.SoundEvents;
 import java.util.function.Supplier;
 
 public enum ModArmorMaterial implements IArmorMaterial {
-  AETHERITE("aetherite", 37, new int[]{3, 6, 8, 3}, 15, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 3.0F, 0.1F, () -> {
+  AETHERITE(AetheriteMod.MODID + ":aetherite", 37, new int[]{3, 6, 8, 3}, 15, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 3.0F, 0.1F, () -> {
     return Ingredient.fromItems(ModItems.AETHERITE_INGOT.get());
   });
 
