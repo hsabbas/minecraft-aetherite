@@ -9,6 +9,7 @@ import net.minecraft.block.SoundType;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
+import net.minecraftforge.common.ToolType;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.DeferredRegister;
@@ -20,10 +21,10 @@ public class ModBlocks {
   public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, AetheriteMod.MODID);
 
   public static final RegistryObject<Block> AETHERITE_ORE = registerBlockItem("aetherite_ore", () ->
-    new Block(AbstractBlock.Properties.from(Blocks.ANCIENT_DEBRIS).sound(SoundType.STONE)));
+    new Block(AbstractBlock.Properties.from(Blocks.ANCIENT_DEBRIS).harvestTool(ToolType.PICKAXE).harvestLevel(3).sound(SoundType.STONE)));
 
   public static final RegistryObject<Block> AETHERITE_BLOCK = registerBlockItem("aetherite_block", () ->
-    new Block(AbstractBlock.Properties.from(Blocks.NETHERITE_BLOCK)));
+    new Block(AbstractBlock.Properties.from(Blocks.NETHERITE_BLOCK).harvestTool(ToolType.PICKAXE).harvestLevel(3)));
 
   private static <T extends  Block> RegistryObject<T> registerBlock(String name, Supplier<T> block){
     return BLOCKS.register(name, block);
